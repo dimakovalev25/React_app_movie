@@ -48,6 +48,7 @@ class Search extends Component {
                             {/*    type="submit"*/}
                             {/*    name="action">Search*/}
                             {/*</button>*/}
+                            <></>
                         </div>
                     </div>
                 </div>
