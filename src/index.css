@@ -42,6 +42,13 @@ nav {
     margin-left: 1rem;
 }
 
+.img404 {
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    margin-right: auto;
+}
+
 label:not(:last-child) {
     margin-right: 1rem;
 }

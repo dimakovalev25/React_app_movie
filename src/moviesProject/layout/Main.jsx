@@ -3,12 +3,14 @@ import Movies from "../components/Movies";
 import Prelouder from "../components/Prelouder";
 import Search from "../components/Search";
 
+const API_KEY = process.env.REACT_APP_API_KEY
 
 class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
             movies: [],
+            loading: true,
             name: 'terminator',
             type: ''
         }
@@ -17,43 +19,45 @@ class Main extends Component {
     componentDidMount() {
         fetch(`http://www.omdbapi.com/?apikey=81b708e8&s=terminator`)
             .then(res => res.json())
-            .then(data => this.setState({movies: data.Search }))
+            .then(data => this.setState({movies: data.Search, loading: false }))
             .catch(err => console.log(err))
 
     }
 
 
     updateNameMovie = (name, e) => {
+        this.setState({loading: true})
         e.preventDefault()
         this.setState({name: name})
         fetch(`http://www.omdbapi.com/?apikey=81b708e8&s=${name}`)
             .then(res => res.json())
-            .then(data => this.setState({movies: data.Search }))
+            .then(data => this.setState({movies: data.Search, loading: false }))
             .catch(err => console.log(err))
 
     }
 
     updateType = (type, e) => {
+        this.setState({loading: true})
         e.preventDefault();
         this.setState({type: type});
         fetch(`http://www.omdbapi.com/?apikey=81b708e8&s=${this.state.name}&type=${type}`)
             .then(res => res.json())
-            .then(data => this.setState({movies: data.Search }))
+            .then(data => this.setState({movies: data.Search, loading: false }))
             .catch(err => console.log(err))
 
     }
 
 
     render() {
-        const {movies} = this.state;
+        const {movies, loading} = this.state;
+        console.log(loading)
 
         return (
             <div className={'container content indigo lighten-5'}>
 
                 <Search updateNameMovie={this.updateNameMovie} updateType={this.updateType}/>
-                {this.state.movies.length ?
-                <Movies updateNameMovie={this.updateNameMovie} movies={this.state.movies}/> :
-                <Prelouder/>
+                {loading ? <Prelouder/> :
+                <Movies updateNameMovie={this.updateNameMovie} movies={this.state.movies}/>
                 }
             </div>
         )
