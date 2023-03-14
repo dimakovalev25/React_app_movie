@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkovalev_projects=self.webpackChunkkovalev_projects||[]).push([[258],{9258:function(e,n,c){function o(){}c.r(n),c.d(n,{some:function(){return o}})}}]);
+//# sourceMappingURL=258.f931dc21.chunk.js.map

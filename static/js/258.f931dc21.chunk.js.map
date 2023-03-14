@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/258.f931dc21.chunk.js","mappings":"yHAAO,SAASA,IACZ,C","sources":["marvel/components/charList/FunctionSome.js"],"sourcesContent":["export function some() {\n    // console.log('some ')\n}"],"names":["some"],"sourceRoot":""}
