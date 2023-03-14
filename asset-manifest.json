@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b8bea08.css",
-    "main.js": "/static/js/main.028cf54b.js",
-    "static/js/94.b2f46987.chunk.js": "/static/js/94.b2f46987.chunk.js",
-    "static/js/258.f931dc21.chunk.js": "/static/js/258.f931dc21.chunk.js",
-    "static/media/errorMarvel.gif": "/static/media/errorMarvel.ae00f579755d024819b2.gif",
-    "static/media/suwuu.jpg": "/static/media/suwuu.560a19dfdc0f3e50d356.jpg",
-    "static/media/mjolnir.png": "/static/media/mjolnir.61f31e1809f12183a524.png",
-    "static/media/Avengers.png": "/static/media/Avengers.4065c8f9c94e3d8b039a.png",
-    "static/media/error.gif": "/static/media/error.42292aa12b6bc303ce99.gif",
-    "static/media/Avengers_logo.png": "/static/media/Avengers_logo.9eaf219344d83362e830.png",
-    "index.html": "/index.html",
-    "main.2b8bea08.css.map": "/static/css/main.2b8bea08.css.map",
-    "main.028cf54b.js.map": "/static/js/main.028cf54b.js.map",
-    "94.b2f46987.chunk.js.map": "/static/js/94.b2f46987.chunk.js.map",
-    "258.f931dc21.chunk.js.map": "/static/js/258.f931dc21.chunk.js.map"
+    "main.css": "/react-projects/static/css/main.2b8bea08.css",
+    "main.js": "/react-projects/static/js/main.e794611b.js",
+    "static/js/94.b2f46987.chunk.js": "/react-projects/static/js/94.b2f46987.chunk.js",
+    "static/js/258.f931dc21.chunk.js": "/react-projects/static/js/258.f931dc21.chunk.js",
+    "static/media/errorMarvel.gif": "/react-projects/static/media/errorMarvel.ae00f579755d024819b2.gif",
+    "static/media/suwuu.jpg": "/react-projects/static/media/suwuu.560a19dfdc0f3e50d356.jpg",
+    "static/media/mjolnir.png": "/react-projects/static/media/mjolnir.61f31e1809f12183a524.png",
+    "static/media/Avengers.png": "/react-projects/static/media/Avengers.4065c8f9c94e3d8b039a.png",
+    "static/media/error.gif": "/react-projects/static/media/error.42292aa12b6bc303ce99.gif",
+    "static/media/Avengers_logo.png": "/react-projects/static/media/Avengers_logo.9eaf219344d83362e830.png",
+    "index.html": "/react-projects/index.html",
+    "main.2b8bea08.css.map": "/react-projects/static/css/main.2b8bea08.css.map",
+    "main.e794611b.js.map": "/react-projects/static/js/main.e794611b.js.map",
+    "94.b2f46987.chunk.js.map": "/react-projects/static/js/94.b2f46987.chunk.js.map",
+    "258.f931dc21.chunk.js.map": "/react-projects/static/js/258.f931dc21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b8bea08.css",
-    "static/js/main.028cf54b.js"
+    "static/js/main.e794611b.js"
   ]
 }
